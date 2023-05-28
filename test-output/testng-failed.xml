@@ -3,20 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="week5.day2.CreateLead">
+      <class name="week5.day2.CreateLeadWithDataProvider">
         <methods>
           <include name="preCondition"/>
           <include name="postCondition"/>
           <include name="createLead"/>
         </methods>
-      </class> <!-- week5.day2.CreateLead -->
-      <class name="week5.day2.EditLead">
-        <methods>
-          <include name="preCondition"/>
-          <include name="postCondition"/>
-          <include name="editLead"/>
-        </methods>
-      </class> <!-- week5.day2.EditLead -->
+      </class> <!-- week5.day2.CreateLeadWithDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
